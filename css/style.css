@@ -164,6 +164,8 @@ header button {
 
 .btn-free {
   margin-left: 10px;
+  color: #ffffff;
+  background-color: #ff7a59;
 }
 
 /***************** PSEUDO HEADER ******************/
@@ -178,19 +180,13 @@ header button {
   height: 160px;
 }
 
-.pseudo-header {
-  /*provvisorio, tanto non si vede perché coperto da interno01 e interno02*/
-  width: 100%;
-  height: 100%;
-}
-
 .interno01 {
   height: 150px;
   width: 30%;
   float: left;
   position: relative;
 }
-
+/*********** IL LOGO SCAVALCA L'HEADER ***********/
 #logo img {
   position: absolute;
   margin-top: 100px;
@@ -267,6 +263,7 @@ ul {
 }
 
 .bottonelearn {
+  /*DA SISTEMARE: SCAVALCA L'HEADER */
   height: 40px;
   border-radius: 5px;
   border: none;
@@ -280,15 +277,65 @@ ul {
 
 .fwrosino {
   background-color: #fff2ee;
-  /*provvisoria*/
-  height: 500px;
 }
 
 .container-rosino {
   background-color: #fff2ee;
   /*provvisoria*/
-  height: 500px;
-  border: 1px solid black;
+}
+
+.scatola-grande {
+  height: 100%;
+  width: 40%;
+}
+
+.h1-e-p {
+  padding-top: 70px;
+}
+
+.h1grosso {
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+.bottonegrosso {
+  height: 100px;
+}
+
+.bottonegrosso button {
+  height: 100%;
+  width: 200px;
+  color: #ffffff;
+  background-color: #ff7a59;
+  border: none;
+  border-radius: 5px;
+}
+
+.scatolina {
+  width: 99%;
+}
+
+.h1grosso {
+  font-size: 50px;
+  color: #455668;
+}
+
+.paragrafo1 {
+  line-height: 28px;
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: #455668;
+}
+
+.paragrafino {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #455668;
+}
+
+.paragrafino {
+  height: 30%;
+  padding-bottom: 50px;
 }
 
 /************** SEZIONE ACQUA PICCOLA *************/
