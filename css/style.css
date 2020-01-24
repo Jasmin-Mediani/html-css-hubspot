@@ -87,12 +87,12 @@ input {
 }
 
 .minion3 {
-  width: 38%;
+  width: 34%;
 }
 
 .minion4 {
   height: 100%;
-  width: 20%;
+  width: 10%;
   float: left;
   line-height: 70px;
 }
@@ -136,11 +136,11 @@ input {
 }
 
 .minion5 button {
-  width: 150px;
+  width: 140px;
   height: 30px;
   background-color: #ff7a59;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .stanghetta {
@@ -164,7 +164,7 @@ header button {
 }
 
 .btn-free {
-  margin-left: 10px;
+  margin-left: 35px;
   color: #ffffff;
   background-color: #ff7a59;
 }
@@ -376,16 +376,12 @@ ul {
 .container-grigino2 {
   background-color: #f5f8fa;
   /*provvisoria*/
-  height: 1000px;
+  height: 1600px;
   border: 1px solid black;
-}
-
-.riga1 {
 }
 
 .riga1 img {
   width: 25%;
-  border: 1px solid black;
   margin: auto 50%;
   transform: translateX(-50%);
   margin-top: 70px;
@@ -402,7 +398,7 @@ ul {
 }
 
 .riga1 p {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 /*CARDS*/
@@ -425,9 +421,6 @@ ul {
   height: 100%;
   position: relative;
   float: left;
-}
-
-.cont2 div {
 }
 
 .cont1 img {
@@ -488,6 +481,14 @@ ul {
 
 .card0 {
   color: #33475b;
+  border-radius: 10px;
+}
+
+.card {
+  width: 33.33333%;
+  height: 600px;
+  border: 1px solid black;
+  float: left;
 }
 
 /*************** SEZIONE ACQUA DELL'ELBA **********/
