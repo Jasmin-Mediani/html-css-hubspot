@@ -376,12 +376,11 @@ ul {
 .container-grigino2 {
   background-color: #f5f8fa;
   /*provvisoria*/
-  height: 500px;
+  height: 1000px;
   border: 1px solid black;
 }
 
 .riga1 {
-  border: 2px solid red;
 }
 
 .riga1 img {
@@ -389,6 +388,7 @@ ul {
   border: 1px solid black;
   margin: auto 50%;
   transform: translateX(-50%);
+  margin-top: 70px;
 }
 
 .riga1 h3,
@@ -404,6 +404,58 @@ ul {
 .riga1 p {
   padding-bottom: 30px;
 }
+
+/*CARDS*/
+
+.card0 {
+  border: 2px solid rgb(255, 17, 255);
+  /*provvisoria*/
+  height: 400px;
+  background-color: #ffffff;
+}
+
+.cont1 {
+  width: 33.33333%;
+  height: 100%;
+  border: 2px solid black;
+  position: relative;
+  float: left;
+  padding-top: 120px;
+}
+
+.cont2 {
+  width: 66.66667%;
+  height: 100%;
+  border: 3px solid red;
+  position: relative;
+  float: left;
+}
+
+.cont2 div {
+  border: 2px solid red;
+}
+
+.cont1 img {
+  width: 35%;
+  position: relative;
+  border: 1px solid black;
+  margin: auto 50%;
+  transform: translateX(-50%);
+}
+
+.cont1 button {
+  width: 25%;
+  border: 1px solid black;
+  margin: auto 50%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  transform: translateX(-50%);
+  height: 50px;
+  background-color: #ff7a59;
+  color: #ffffff;
+  font-size: 15px;
+}
+
 /*************** SEZIONE ACQUA DELL'ELBA **********/
 .fwacqua {
   background-color: #00b6ab;
