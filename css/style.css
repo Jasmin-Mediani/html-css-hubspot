@@ -168,6 +168,15 @@ header button {
   background-color: #ff7a59;
 }
 
+.btn-login {
+  background-color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: rgba(255, 122, 89, 0.1);
+}
+rgb(255,122,89)
+
 /***************** PSEUDO HEADER ******************/
 
 .fwbianchino {
@@ -360,10 +369,10 @@ ul {
 .container-acqua-small {
   /*provvisoria*/
   height: 80px;
-  border: 1px solid black;
 }
 
-/***********************************************/
+/********************* SEZ CUBO **************************/
+
 .container-grigino2 {
   background-color: #f5f8fa;
   /*provvisoria*/
@@ -371,15 +380,39 @@ ul {
   border: 1px solid black;
 }
 
+.riga1 {
+  border: 2px solid red;
+}
+
+.riga1 img {
+  width: 25%;
+  border: 1px solid black;
+  margin: auto 50%;
+  transform: translateX(-50%);
+}
+
+.riga1 h3,
+.riga1 p {
+  text-align: center;
+}
+
+.riga1 h3 {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.riga1 p {
+  padding-bottom: 30px;
+}
 /*************** SEZIONE ACQUA DELL'ELBA **********/
 .fwacqua {
   background-color: #00b6ab;
 }
 
 .container-acqua {
+  border: 1px solid black;
   /*provvisoria*/
   height: 500px;
-  border: 1px solid black;
   background-image: linear-gradient(
     to right,
     rgb(0, 168, 186),
@@ -434,5 +467,9 @@ ul {
 }
 
 .fixedbutton:hover {
+  cursor: pointer;
+}
+
+button:hover {
   cursor: pointer;
 }
