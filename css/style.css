@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fwgrigino {
+  background-color: #f5f8fa;
+  border-top: 1px solid #cbd6e2;
+  border-bottom: 1px solid #cbd6e2;
+  border: 1px solid black;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-grigino {
+  background-color: #f5f8fa;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+}
+
+/************* HEADER ***************/
+
+#header {
+  position: fixed;
+  /*provvisori*/
+  height: 80px;
+  width: 100%;
+  margin: auto auto;
+}
+
+.container-dentro-header {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.minicontainer-sx {
+  width: 35%;
+  height: 100%;
+  float: left;
+  margin-left: 10px;
+}
+
+.minicontainer-dx {
+  width: 35%;
+  height: 100%;
+  float: right;
+  margin-right: 10px;
+}
+
+input {
+  width: 125px;
+  height: 23px;
+}
+
+.minion {
+  height: 100%;
+  width: 33%;
+  float: left;
+  line-height: 70px;
+}
+
+.minion1 {
+  width: 30%;
+}
+
+.fas {
+  margin-right: 5px;
+}
+
+.minion3 {
+  width: 38%;
+}
+
+.minion4 {
+  height: 100%;
+  width: 20%;
+  float: left;
+  line-height: 70px;
+}
+
+.minion5 {
+  width: 42%;
+  margin-right: 0px;
+}
+
+.minion3,
+.minion4,
+.minion5 {
+  float: left;
+}
+
+.minion2 {
+  float: left;
+  width: 50%;
+}
+
+.minion2 button,
+.minion1 button {
+  height: 30px;
+}
+
+.minion2 i {
+  color: transparent;
+}
+
+.minion1 button,
+.minion2 button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.minion4 button {
+  width: 60px;
+  border: 1px solid #ff7a59;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.minion5 button {
+  width: 150px;
+  height: 30px;
+  background-color: #ff7a59;
+  border: none;
+  border-radius: 3px;
+}
+
+.stanghetta {
+  border-left: 1px solid black;
+  height: 30%;
+  width: 1px;
+  float: left;
+  margin-top: 25px;
+}
+
+header button:hover {
+  cursor: pointer;
+}
+
+.minicontainer-sx button {
+  color: black;
+}
+
+header button {
+  font-size: 15px;
+}
+
+.btn-free {
+  margin-left: 10px;
+}
+
+/***************** PSEUDO HEADER ******************/
+
+.fwbianchino {
+  background-color: #ffffff;
+}
+
+.container-bianchino {
+  background-color: #ffffff;
+  /*provvisoria*/
+  height: 160px;
+}
+
+.pseudo-header {
+  /*provvisorio, tanto non si vede perché coperto da interno01 e interno02*/
+  width: 100%;
+  height: 100%;
+}
+
+.interno01 {
+  height: 150px;
+  width: 30%;
+  float: left;
+  position: relative;
+}
+
+#logo img {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.interno02 {
+  margin-top: 80px;
+  width: 70%;
+  height: 50%;
+  float: right;
+}
+
+li {
+  float: right;
+}
+
+.ul-orizzontale li a {
+  display: block;
+  color: rgb(88, 56, 56);
+  font-size: 20px;
+  text-align: right;
+  padding: 20px;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+ul {
+  list-style: none;
+}
+/****************** FASCIA BLU ALTA *****************/
+
+.fwbluino {
+  background-color: #425b76;
+}
+
+.container-bluino {
+  background-color: #425b76;
+  /*provvisoria*/
+  height: 80px;
+  border: 1px solid yellow;
+}
+
+/************** SEZIONE ROSA ****************/
+
+.fwrosino {
+  background-color: #fff2ee;
+  /*provvisoria*/
+  height: 500px;
+}
+
+.container-rosino {
+  background-color: #fff2ee;
+  /*provvisoria*/
+  height: 500px;
+  border: 1px solid black;
+}
+
+/************** SEZIONE ACQUA PICCOLA *************/
+
+.fwacqua-small {
+  background-image: linear-gradient(
+    to right,
+    rgb(175, 235, 228),
+    rgb(0, 164, 141)
+  );
+}
+
+.fwacqua {
+  background-color: #00b6ab;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 168, 186),
+    rgb(0, 188, 166)
+  );
+}
+
+.container-acqua-small {
+  /*provvisoria*/
+  height: 80px;
+  border: 1px solid black;
+}
+
+/***********************************************/
+.container-grigino2 {
+  background-color: #f5f8fa;
+  /*provvisoria*/
+  height: 500px;
+  border: 1px solid black;
+}
+
+/*************** SEZIONE ACQUA DELL'ELBA **********/
+.fwacqua {
+  background-color: #00b6ab;
+}
+
+.container-acqua {
+  /*provvisoria*/
+  height: 500px;
+  border: 1px solid black;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 168, 186),
+    rgb(0, 188, 166)
+  );
+}
+
+/*************** SEZIONE PENULTIMA BIANCA **********/
+
+.container-bianchino2 {
+  background-color: #ffffff;
+
+  /*provvisorio*/
+  height: 500px;
+  border: 1px solid black;
+}
+
+/******************* FOOTER ***********************/
+
+.footer {
+  /*provvisoria*/
+  height: 500px;
+}
+
+.upper-footer {
+  background-color: #425b76;
+
+  /*provvisoria*/
+  height: 50%;
+}
+
+.lower-footer {
+  background-color: #425b76;
+
+  /*provvisoria*/
+  height: 50%;
+}
+
+/************************* BUTTON STICKY*****************/
+
+.fixedbutton {
+  position: fixed;
+  bottom: 0px;
+  right: 50px;
+  width: 50px;
+  height: 100px;
+}
+
+.fixedbutton img {
+  height: 80px;
+  width: 80px;
+}
+
+.fixedbutton:hover {
+  cursor: pointer;
+}
