@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: montserrat;
 }
 
 html {
@@ -221,15 +222,58 @@ ul {
 }
 /****************** FASCIA BLU ALTA *****************/
 
-.fwbluino {
+.fwbluino1 {
   background-color: #425b76;
 }
 
-.container-bluino {
+.container-bluino1 {
   background-color: #425b76;
   /*provvisoria*/
-  height: 80px;
-  border: 1px solid yellow;
+}
+
+.fascia-blu {
+  height: 100%;
+  position: relative;
+}
+
+.box-scritta {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  float: left;
+  color: #ebeef0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.boxbottone {
+  width: 14%;
+  float: right;
+  height: 100%;
+  position: relative;
+}
+
+.box-scritta p {
+  font-size: 15.5px;
+  line-height: 25px;
+}
+
+.boxbottone button {
+  width: 100%;
+  float: left;
+  color: #536475;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bottonelearn {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.bottonelearn:hover {
+  cursor: pointer;
 }
 
 /************** SEZIONE ROSA ****************/
