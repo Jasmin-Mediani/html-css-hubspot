@@ -208,7 +208,7 @@ header button {
   float: right;
 }
 
-li {
+.ul-orizzontale li {
   float: right;
 }
 
@@ -408,8 +408,6 @@ ul {
 /*CARDS*/
 
 .card0 {
-  border: 2px solid rgb(255, 17, 255);
-  /*provvisoria*/
   height: 400px;
   background-color: #ffffff;
 }
@@ -417,28 +415,24 @@ ul {
 .cont1 {
   width: 33.33333%;
   height: 100%;
-  border: 2px solid black;
   position: relative;
   float: left;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .cont2 {
   width: 66.66667%;
   height: 100%;
-  border: 3px solid red;
   position: relative;
   float: left;
 }
 
 .cont2 div {
-  border: 2px solid red;
 }
 
 .cont1 img {
   width: 35%;
   position: relative;
-  border: 1px solid black;
   margin: auto 50%;
   transform: translateX(-50%);
 }
@@ -454,6 +448,46 @@ ul {
   background-color: #ff7a59;
   color: #ffffff;
   font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.cont2 h4 {
+  font-size: 25px;
+}
+
+.cont2 p {
+  line-height: 28px;
+}
+
+.div1 {
+  padding-top: 70px;
+}
+
+.div2 {
+  padding-top: 25px;
+}
+
+.div3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.ul-check li {
+  display: inline-block;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.ul-check .far {
+  margin-right: 13px;
+  background-color: rgb(253, 189, 14);
+  font-size: 18px;
+}
+
+.card0 {
+  color: #33475b;
 }
 
 /*************** SEZIONE ACQUA DELL'ELBA **********/
