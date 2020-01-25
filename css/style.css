@@ -7,7 +7,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 .clearfix:after {
@@ -391,8 +390,7 @@ ul {
 
 .riga1 img {
   width: 25%;
-  margin: auto 50%;
-  transform: translateX(-50%);
+  margin: auto 37.5%;
   margin-top: 70px;
 }
 
