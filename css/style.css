@@ -20,7 +20,7 @@ html {
   background-color: #f5f8fa;
   border-top: 1px solid #cbd6e2;
   border-bottom: 1px solid #cbd6e2;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .container {
@@ -373,11 +373,20 @@ ul {
 
 /********************* SEZ CUBO **************************/
 
+.fwgrigino2 {
+  background-color: #f5f8fa;
+}
+
 .container-grigino2 {
   background-color: #f5f8fa;
   /*provvisoria*/
+  /*border: 1px solid black;*/
   height: 1600px;
-  border: 1px solid black;
+}
+
+.sezione-grigia {
+  height: 100%;
+  /*border: 2px solid red;*/
 }
 
 .riga1 img {
@@ -403,9 +412,22 @@ ul {
 
 /*CARDS*/
 
+.card {
+  width: 32%;
+  position: relative;
+  float: left; /*questo float disturba le dimensioni del container: butta fuori le 3 cards dal loro container... Perciò devo lasciare l'altezza del loro container in pixel*/
+  margin-top: 3%;
+  background-color: #ffffff;
+  text-align: center;
+  color: #33475b;
+}
+
 .card0 {
   height: 400px;
   background-color: #ffffff;
+  position: relative;
+  color: #33475b;
+  border-radius: 10px;
 }
 
 .cont1 {
@@ -414,13 +436,6 @@ ul {
   position: relative;
   float: left;
   padding-top: 80px;
-}
-
-.cont2 {
-  width: 66.66667%;
-  height: 100%;
-  position: relative;
-  float: left;
 }
 
 .cont1 img {
@@ -443,6 +458,13 @@ ul {
   font-size: 15px;
   border-radius: 5px;
   border: none;
+}
+
+.cont2 {
+  width: 66.66667%;
+  height: 100%;
+  position: relative;
+  float: left;
 }
 
 .cont2 h4 {
@@ -479,16 +501,76 @@ ul {
   font-size: 18px;
 }
 
-.card0 {
-  color: #33475b;
-  border-radius: 10px;
+.boite {
+  height: 25%;
+}
+.card2 {
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
-.card {
-  width: 33.33333%;
-  height: 600px;
+.boite1 img,
+.boite5 img,
+.boite9 img {
+  width: 25%;
+  margin: auto 50%;
+  transform: translateX(-50%);
+  margin-top: 45px;
+}
+
+.boite5 img,
+.boite9 img {
+  height: 100px;
+}
+
+.card h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card p {
+  line-height: 22px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  text-align: start;
+}
+
+.boite hr {
+  padding-top: 20px;
+  width: 70%;
+  margin: 0 auto;
   border: 1px solid black;
-  float: left;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+}
+
+.boite h4 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.boite li {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.boite .far {
+  /*background-color: #ff7a59; ((FUNZIONA MALE DA FONTAWESOME))*/
+  line-height: 25px;
+  margin-right: 10px;
+}
+
+.boite button {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  height: 60px;
+  width: 30%;
+  background-color: #ff7a59;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
 /*************** SEZIONE ACQUA DELL'ELBA **********/
@@ -517,8 +599,8 @@ ul {
   background-color: #ffffff;
 
   /*provvisorio*/
-  height: 500px;
-  border: 1px solid black;
+  /*height: 500px;*/
+  /*border: 1px solid black;*/
 }
 
 /******************* FOOTER ***********************/
