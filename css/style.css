@@ -574,17 +574,80 @@ ul {
 /*************** SEZIONE ACQUA DELL'ELBA **********/
 .fwacqua {
   background-color: #00b6ab;
+
+  border: 1px solid transparent; /*se lo tolgo si accorcia la sezione verdeacqua*/
 }
 
 .container-acqua {
-  border: 1px solid black;
   /*provvisoria*/
-  height: 500px;
   background-image: linear-gradient(
     to right,
     rgb(0, 168, 186),
     rgb(0, 188, 166)
   );
+}
+
+.wrapper {
+  text-align: center;
+  color: #ffff;
+}
+
+.wrapper h2 {
+  font-size: 30px;
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.wrapper p {
+  width: 65%;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+/* inizio "tabella" - non è una tabella! */
+
+.wrapper-pseudo-tabella {
+  width: 100%;
+  height: 450px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  margin-bottom: 300;
+}
+
+.row1,
+.row2 {
+  height: 50%;
+  width: 100%;
+}
+
+.row1 {
+  border-top: transparent;
+  border-bottom: 1px solid white;
+}
+
+.scatoletta {
+  width: 25%;
+  height: 100%;
+  border: 1px solid white;
+  float: left;
+  padding-top: 35px;
+  border-top: none;
+  border-bottom: transparent;
+  font-size: 25px;
+}
+
+.uno1,
+.cinque5 {
+  border-left: transparent;
+}
+
+.quattro4,
+.otto8 {
+  border-right: transparent;
 }
 
 /*************** SEZIONE PENULTIMA BIANCA **********/
@@ -597,8 +660,8 @@ ul {
   background-color: #ffffff;
 
   /*provvisorio*/
-  /*height: 500px;*/
-  /*border: 1px solid black;*/
+  height: 500px;
+  border: 1px solid black;
 }
 
 /******************* FOOTER ***********************/
