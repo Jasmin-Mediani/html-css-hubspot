@@ -195,7 +195,6 @@ header button {
   float: left;
   position: relative;
 }
-/*********** IL LOGO SCAVALCA L'HEADER ***********/
 #logo img {
   position: relative;
   margin-top: 100px;
@@ -634,7 +633,6 @@ ul {
 .scatoletta {
   width: 25%;
   height: 100%;
-  border: 1px solid white;
   float: left;
   padding-top: 35px;
   border-top: none;
@@ -660,66 +658,112 @@ ul {
 
 .container-bianchino2 {
   background-color: #ffffff;
-
-  /*provvisorio*/
-  height: 700px;
-  border: 1px solid black;
 }
 
 .contenitore-boh {
   height: 300px;
-  border: 2px solid red;
   position: relative;
+  margin-top: 100px;
 }
 
 .sessantottocustomers {
-  width: 50%;
-  border: 2px solid orange;
-  height: 100%;
+  width: 30%;
+  height: auto;
   position: relative;
   float: left;
+  margin-top: 100px;
+}
+
+.sessantottocustomers h1 {
+  font-size: 50px;
+  margin-left: 70px;
+}
+
+.sessantottocustomers p {
+  line-height: 30px;
+  width: 70%;
+  margin-left: 70px;
 }
 
 .sponsor {
-  width: 50%;
+  width: 60%;
   height: 100%;
-  border: 2px solid greenyellow;
   position: relative;
-  float: left;
+  float: right;
+  margin-top: 20px;
 }
 
 .contenitore-sotto {
-  height: 300px;
-  border: 2px solid purple;
+  height: 550px;
+  margin-top: 100px;
 }
 
 .riga-uno,
 .riga-due {
-  height: 50%;
-  border: 2px solid blue;
+  height: 35%;
 }
 
 .riga-uno .scatoletta,
 .riga-due .scatoletta {
-  width: 25%;
+  width: 20%;
   height: 100%;
-  border: 1px solid black;
   float: left;
 }
 
 .uguale {
-  width: 50%;
+  width: 40%;
   height: 100%;
-  border: 2px solid lightsalmon;
   position: relative;
   float: left;
 }
 .tizia {
-  width: 50%;
+  width: 40%;
   height: 100%;
-  border: 2px solid darkolivegreen;
   position: relative;
-  float: left;
+  float: right;
+}
+
+.tizia img {
+  height: 75%;
+  float: right;
+}
+
+.riga-uno img,
+.riga-due img {
+  width: 85%;
+  margin: auto 50%;
+  transform: translateX(-50%);
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.sette7 img {
+  margin-top: 15px;
+}
+
+.uguale h1 {
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.uguale p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.uguale button {
+  height: 90px;
+  width: 210px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+
+.uguale .p2 {
+  font-size: 10px;
 }
 
 /******************* FOOTER ***********************/
@@ -745,21 +789,6 @@ ul {
 
   /*provvisoria*/
   height: 50%;
-}
-
-.tizia img {
-  height: 100%;
-}
-
-.riga-uno img,
-.riga-due img {
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 20px;
-}
-
-.riga-due img {
-  margin-top: 10px;
 }
 
 /************************* BUTTON STICKY*****************/
