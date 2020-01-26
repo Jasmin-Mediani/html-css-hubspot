@@ -33,6 +33,7 @@ html {
   height: 80px;
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 /************* HEADER ***************/
@@ -196,7 +197,7 @@ header button {
 }
 /*********** IL LOGO SCAVALCA L'HEADER ***********/
 #logo img {
-  position: absolute;
+  position: relative;
   margin-top: 100px;
 }
 
@@ -418,6 +419,7 @@ ul {
   background-color: #ffffff;
   text-align: center;
   color: #33475b;
+  z-index: 1;
 }
 
 .card0 {
