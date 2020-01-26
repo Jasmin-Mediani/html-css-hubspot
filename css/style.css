@@ -662,8 +662,64 @@ ul {
   background-color: #ffffff;
 
   /*provvisorio*/
-  height: 500px;
+  height: 700px;
   border: 1px solid black;
+}
+
+.contenitore-boh {
+  height: 300px;
+  border: 2px solid red;
+  position: relative;
+}
+
+.sessantottocustomers {
+  width: 50%;
+  border: 2px solid orange;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.sponsor {
+  width: 50%;
+  height: 100%;
+  border: 2px solid greenyellow;
+  position: relative;
+  float: left;
+}
+
+.contenitore-sotto {
+  height: 300px;
+  border: 2px solid purple;
+}
+
+.riga-uno,
+.riga-due {
+  height: 50%;
+  border: 2px solid blue;
+}
+
+.riga-uno .scatoletta,
+.riga-due .scatoletta {
+  width: 25%;
+  height: 100%;
+  border: 1px solid black;
+  float: left;
+}
+
+.uguale {
+  width: 50%;
+  height: 100%;
+  border: 2px solid lightsalmon;
+  position: relative;
+  float: left;
+}
+.tizia {
+  width: 50%;
+  height: 100%;
+  border: 2px solid darkolivegreen;
+  position: relative;
+  float: left;
 }
 
 /******************* FOOTER ***********************/
