@@ -747,6 +747,21 @@ ul {
   height: 50%;
 }
 
+.tizia img {
+  height: 100%;
+}
+
+.riga-uno img,
+.riga-due img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.riga-due img {
+  margin-top: 10px;
+}
+
 /************************* BUTTON STICKY*****************/
 
 .fixedbutton {
