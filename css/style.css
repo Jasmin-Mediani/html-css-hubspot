@@ -572,7 +572,7 @@ ul {
   color: #ffffff;
 }
 
-/*************** SEZIONE ACQUA DELL'ELBA **********/
+/*************** SEZIONE ACQUA **********/
 .fwacqua {
   background-color: #00b6ab;
 
@@ -687,7 +687,7 @@ ul {
 
 .sponsor {
   width: 60%;
-  height: 100%;
+  height: 90%;
   position: relative;
   float: right;
   margin-top: 20px;
@@ -771,12 +771,6 @@ ul {
   background-color: #425b76;
 }
 
-.footer {
-  /*provvisoria*/
-  height: 500px;
-  border: 1px solid white;
-}
-
 .upper-footer {
   background-color: #425b76;
 
@@ -784,11 +778,140 @@ ul {
   height: 50%;
 }
 
+.sottosezione {
+  width: 25%;
+  height: 100%;
+  float: left;
+  margin-top: 60px;
+}
+
+.sottosezione p,
+.sottosezione h3 {
+  line-height: 50px;
+  color: #cbd6e2;
+}
+
+.sottosezione h3 {
+  color: #ffffff;
+}
+
+.sottosezione button {
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: #33475b;
+}
+
+.ul-icone {
+  width: 25%;
+  float: left;
+}
+
+.ul-icone li {
+  display: inline-block;
+}
+
+.contenitore-icone {
+  height: 80px;
+}
+
+.iconcina {
+  width: 16.66%;
+  float: left;
+  height: auto;
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.iconcina img {
+  width: 30px;
+  height: 30px;
+}
+
+.iconcina a {
+  color: #cbd6e2;
+}
+
+.sottosezione-a-parte {
+  width: 100%;
+  height: 20%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.lingue {
+  width: 50%;
+  margin: 0 auto;
+  /*provvisorio*/
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 60px;
+}
+
+.lingua {
+  width: 16.66%;
+  height: auto;
+  float: left;
+}
+
+.lingue a {
+  color: #cbd6e2;
+}
+.hrultima {
+  border: 1px solid rgb(216, 216, 216);
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+}
+
 .lower-footer {
   background-color: #425b76;
+}
 
-  /*provvisoria*/
-  height: 50%;
+.end {
+  height: 100%;
+}
+
+.logo-e-copyright {
+  width: 50%;
+  float: left;
+  height: auto;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.logo-e-copyright img {
+  padding-top: 20px;
+}
+
+.logo-e-copyright p {
+  font-size: 10px;
+  padding-top: 18px;
+  color: #cbd6e2;
+}
+
+.legal-and-privacy {
+  width: 50%;
+  float: right;
+  height: 100%;
+  position: relative;
+}
+
+.legal-and-privacy a {
+  color: #cbd6e2;
+  text-decoration: none;
+}
+
+.legal,
+.privacy-policy {
+  width: 30%;
+  height: auto;
+  float: right;
+  padding-top: 50px;
 }
 
 /************************* BUTTON STICKY*****************/
