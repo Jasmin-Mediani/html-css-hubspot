@@ -357,7 +357,6 @@ ul {
 }
 
 .fwacqua {
-  background-color: #00b6ab;
   background-image: linear-gradient(
     to right,
     rgb(0, 168, 186),
@@ -574,18 +573,7 @@ ul {
 
 /*************** SEZIONE ACQUA **********/
 .fwacqua {
-  background-color: #00b6ab;
-
   border: 1px solid transparent; /*se lo tolgo si accorcia la sezione verdeacqua*/
-}
-
-.container-acqua {
-  /*provvisoria*/
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 168, 186),
-    rgb(0, 188, 166)
-  );
 }
 
 .wrapper {
