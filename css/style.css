@@ -638,6 +638,7 @@ ul {
   border-top: none;
   border-bottom: transparent;
   font-size: 25px;
+  border-right: 1px solid white;
 }
 
 .uno1,
